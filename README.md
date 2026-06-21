@@ -30,6 +30,7 @@ LangChain/AutoGen vs KCIS orchestration
 - Thermodynamic energy accounting
 - Adversarial solve/critic/repair reasoning
 - Benchmark runner
+- Interactive Web App Dashboard
 - CLI
 - Tests
 
@@ -47,7 +48,7 @@ make install
 make test
 ```
 
-## Run
+## Run CLI
 
 ```bash
 kcis --task "Explain KCIS in simple terms." --explain
@@ -58,6 +59,20 @@ or:
 ```bash
 python main.py --task "Explain entropy routing." --json
 ```
+
+## Run Web Interface Dashboard
+
+KCIS now includes a gorgeous, responsive, real-time interactive dashboard.
+
+To launch the web app:
+```bash
+make web
+```
+Then open your browser to: **`http://localhost:8000`**
+
+The web app supports:
+- **Interactive Sandbox Mode:** Compute and simulate everything locally in-browser (perfect for quick local tests without keys).
+- **Production API Mode:** Connect to OpenAI/Anthropic APIs, run real-time tasks, and visualize live token reductions, SVD compression rates, Shannon entropy routing, and adversarial debate loops visually.
 
 ## Benchmark
 

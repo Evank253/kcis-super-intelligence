@@ -1,4 +1,4 @@
-.PHONY: install test run bench clean
+.PHONY: install test run bench clean web
 
 install:
 	python -m pip install --upgrade pip setuptools wheel
@@ -10,6 +10,9 @@ test:
 
 run:
 	python main.py --task "Explain how entropy routing improves AI compute efficiency." --explain
+
+web:
+	python app.py
 
 bench:
 	python -m kcis.benchmarks.runner --tasks bench/tasks.jsonl --out results/kcis_benchmark.json
