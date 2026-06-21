@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+results/*.json
+results/*.md
+.kcis_memory/
+dist/
+build/
+*.egg-info/

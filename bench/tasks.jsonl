@@ -1,0 +1,5 @@
+{"id":"math_1","task":"If John has 12 apples and gives away 5, then buys 9 more, how many apples does he have?","expected":"16"}
+{"id":"logic_1","task":"A bat and a ball cost $1.10 total. The bat costs $1.00 more than the ball. How much does the ball cost?","expected":"$0.05"}
+{"id":"summary_1","task":"Summarize this in one sentence: KCIS is a physics-inspired AI orchestration system using entropy routing, tensor compression, reservoir memory, adversarial agents, and thermodynamic accounting."}
+{"id":"code_1","task":"Find the bug in this Python function: def add_items(items=[]): items.append(1); return items","expected":"mutable default"}
+{"id":"reasoning_1","task":"Explain why measuring token usage, latency, and quality is necessary before claiming an AI architecture is more efficient."}
